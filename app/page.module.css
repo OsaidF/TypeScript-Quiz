@@ -1,0 +1,16 @@
+.name{
+  margin: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.yellow{
+  color: #E2B714;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
