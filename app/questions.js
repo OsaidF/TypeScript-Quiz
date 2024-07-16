@@ -139,6 +139,35 @@ export const TSquestion =  [
             question:'When a function does not return a value we use _______ type',
             options: ['String', 'Void', 'Number', 'Boolean'],
             correctAnswer: 'Void'
+        },{
+            id:27,
+            question:'What is the result of running TypeScript code with a syntax error?',
+            options: ['The code runs but skips the erroneous part', 'The code correct the error automatically', 'The code fails to compile',
+                 'The code runs with warnings'],
+            correctAnswer: 'The code fails to compile'
+        },{
+            id:28,
+            question:'What is the key difference between let and const?',
+            options: ['"let" vriable are block-scoped, const are global-scoped', '"const" and "let" have no difference', 
+                '"const" variables cannot be reassigned',
+                 'All of these are correct'],
+            correctAnswer: '"const" variables cannot be reassigned'
+        },{
+            id:29,
+            question:'What is the purpose of chalk library in TypeScript?',
+            options: ['To perform HTTP requests', 'To style terminal strings', 'To handle JSON data', 'To format dates'],
+            correctAnswer: 'To style terminal strings'
+        },{
+            id:30,
+            question:'What is the purpose of type aliases in TypeScript?',
+            options: ['To rename existing types', 'To assign default values to types', 'To create new types from existing types',
+                 'To define union and intersection types'],
+            correctAnswer: 'To create new types from existing types'
+        },{
+            id:31,
+            question:'What is the output of the following TypeScript code:  const obj = { a:1 , b:2 };  console.log(obj.c);',
+            options: ['3', '0', 'null', 'undefined'],
+            correctAnswer: 'undefined'
         }
     ]
     

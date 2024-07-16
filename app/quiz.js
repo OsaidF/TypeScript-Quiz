@@ -67,7 +67,7 @@ const Quiz = () => {
       {setShowWrong(false)}
   }
   useEffect(() => {
-    if (answeredQuestions === 25) {
+    if (answeredQuestions === 30) {
         setActiveQuestion(0)
         setShowResult(true)
       }
@@ -81,7 +81,7 @@ const Quiz = () => {
         <>
           <div className={styles.container}>
             <h4 className={styles.score}>
-              Question:{` ${answeredQuestions + 1}`} out of 25
+              Question:{` ${answeredQuestions + 1}`} out of 30
             </h4>
             <h4 className={styles.score}>
               Score: <b className={styles.yellow}> {`${result}`}</b>
@@ -107,7 +107,7 @@ const Quiz = () => {
               onClick={onNextClick}
               disabled={selectedAnswerIndex === null}
             >
-              {answeredQuestions === 10 ? "Finish" : "Next"}
+              {answeredQuestions === 30 ? "Finish" : "Next"}
             </button>
           </div>
         </>
